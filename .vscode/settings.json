@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "vetur.validation.template": false,
+  "cSpell.ignoreWords": [
+    "atdow",
+    "mockjs2",
+    "browserslist",
+  ],
+  "fileheader.configObj": {
+    "prohibitAutoAdd": [
+      "json",
+      "md"
+    ]
+  }
+}
