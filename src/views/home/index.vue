@@ -2,7 +2,7 @@
  * @Author: atdow
  * @Date: 2021-06-17 10:31:50
  * @LastEditors: null
- * @LastEditTime: 2022-05-10 23:21:40
+ * @LastEditTime: 2022-05-10 23:46:31
  * @Description: file description
 -->
 <template>
@@ -48,7 +48,7 @@ export default {
   name: 'Index',
   data() {
     return {
-      drawerVisible: true,
+      drawerVisible: false,
       view: {
         type: '',
         render: 'antv',
@@ -69,7 +69,9 @@ export default {
     showPanel() {
       this.drawerVisible = true
     },
-    handleClose() {},
+    handleClose() {
+      this.drawerVisible = false
+    },
   },
 }
 </script>
