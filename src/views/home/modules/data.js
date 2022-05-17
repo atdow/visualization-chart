@@ -3,292 +3,292 @@ export const TYPE_CONFIGS = [
     render: 'antv',
     category: '表格',
     value: 'table-normal',
-    title: 'chart.chart_table_normal',
+    title: '汇总表',
     icon: 'table-normal'
   },
   {
     render: 'antv',
     category: '表格',
     value: 'table-info',
-    title: 'chart.chart_table_info',
+    title: '明细表',
     icon: 'table-info'
   },
   {
     render: 'antv',
     category: '表格',
     value: 'table-pivot',
-    title: 'chart.chart_table_pivot',
+    title: '透视表',
     icon: 'table-pivot'
   },
 
   {
     render: 'antv',
-    category: 'chart.chart_type_quota',
+    category: '指标',
     value: 'label',
-    title: 'chart.chart_label',
+    title: '文本卡',
     icon: 'label'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_quota',
+    category: '指标',
     value: 'text',
-    title: 'chart.chart_card',
+    title: '指标卡',
     icon: 'text'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_quota',
+    category: '指标',
     value: 'gauge',
-    title: 'chart.chart_gauge',
+    title: '仪表盘',
     icon: 'gauge'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_quota',
+    category: '指标',
     value: 'liquid',
-    title: 'chart.chart_liquid',
+    title: '水波图',
     icon: 'liquid'
   },
 
   {
     render: 'antv',
-    category: 'chart.chart_type_trend',
+    category: '趋势',
     value: 'line',
-    title: 'chart.chart_line',
+    title: '基础折线图',
     icon: 'line'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_trend',
+    category: '趋势',
     value: 'line-stack',
-    title: 'chart.chart_line_stack',
+    title: '堆叠折线图',
     icon: 'line-stack'
   },
 
   {
     render: 'antv',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar',
-    title: 'chart.chart_bar',
+    title: '基础柱状图',
     icon: 'bar'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar-stack',
-    title: 'chart.chart_bar_stack',
+    title: '堆叠柱状图',
     icon: 'bar-stack'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'waterfall',
-    title: 'chart.chart_waterfall',
+    title: '瀑布图',
     icon: 'waterfall'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar-horizontal',
-    title: 'chart.chart_bar_horizontal',
+    title: '横向柱状图',
     icon: 'bar-horizontal'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar-stack-horizontal',
-    title: 'chart.chart_bar_stack_horizontal',
+    title: '横向堆叠柱状图',
     icon: 'bar-stack-horizontal'
   },
 
   {
     render: 'antv',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'pie',
-    title: 'chart.chart_pie',
+    title: '饼图',
     icon: 'pie'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'pie-rose',
-    title: 'chart.chart_pie_rose',
+    title: '南丁格尔玫瑰图',
     icon: 'pie-rose'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'radar',
-    title: 'chart.chart_radar',
+    title: '雷达图',
     icon: 'radar'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'treemap',
-    title: 'chart.chart_treemap',
+    title: '矩形树图',
     icon: 'treemap'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'word-cloud',
-    title: 'chart.chart_word_cloud',
+    title: '词云',
     icon: 'word-cloud'
   },
 
   {
     render: 'antv',
-    category: 'chart.chart_type_relation',
+    category: '关系',
     value: 'scatter',
-    title: 'chart.chart_scatter',
+    title: '散点图',
     icon: 'scatter'
   },
   {
     render: 'antv',
-    category: 'chart.chart_type_relation',
+    category: '关系',
     value: 'funnel',
-    title: 'chart.chart_funnel',
+    title: '漏斗图',
     icon: 'funnel'
   },
   /* 下面是echarts图表类型 */
   {
     render: 'echarts',
-    category: 'chart.chart_type_table',
+    category: '表格',
     value: 'table-normal',
-    title: 'chart.chart_table_normal',
+    title: '汇总表',
     icon: 'table-normal'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_table',
+    category: '表格',
     value: 'table-info',
-    title: 'chart.chart_table_info',
+    title: '明细表',
     icon: 'table-info'
   },
 
   {
     render: 'echarts',
-    category: 'chart.chart_type_quota',
+    category: '指标',
     value: 'label',
-    title: 'chart.chart_label',
+    title: '文本卡',
     icon: 'label'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_quota',
+    category: '指标',
     value: 'text',
-    title: 'chart.chart_card',
+    title: '指标卡',
     icon: 'text'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_quota',
+    category: '指标',
     value: 'gauge',
-    title: 'chart.chart_gauge',
+    title: '仪表盘',
     icon: 'gauge'
   },
 
   {
     render: 'echarts',
-    category: 'chart.chart_type_trend',
+    category: '趋势',
     value: 'line',
-    title: 'chart.chart_line',
+    title: '基础折线图',
     icon: 'line'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_trend',
+    category: '趋势',
     value: 'line-stack',
-    title: 'chart.chart_line_stack',
+    title: '堆叠折线图',
     icon: 'line-stack'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_trend',
+    category: '趋势',
     value: 'chart-mix',
-    title: 'chart.chart_mix',
+    title: '组合图',
     icon: 'chart-mix'
   },
 
   {
     render: 'echarts',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar',
-    title: 'chart.chart_bar',
+    title: '基础柱状图',
     icon: 'bar'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar-stack',
-    title: 'chart.chart_bar_stack',
+    title: '堆叠柱状图',
     icon: 'bar-stack'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar-horizontal',
-    title: 'chart.chart_bar_horizontal',
+    title: '横向柱状图',
     icon: 'bar-horizontal'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_compare',
+    category: '比较',
     value: 'bar-stack-horizontal',
-    title: 'chart.chart_bar_stack_horizontal',
+    title: '横向堆叠柱状图',
     icon: 'bar-stack-horizontal'
   },
 
   {
     render: 'echarts',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'pie',
-    title: 'chart.chart_pie',
+    title: '饼图',
     icon: 'pie'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'pie-rose',
-    title: 'chart.chart_pie_rose',
+    title: '南丁格尔玫瑰图',
     icon: 'pie-rose'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'radar',
-    title: 'chart.chart_radar',
+    title: '雷达图',
     icon: 'radar'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_distribute',
+    category: '分布',
     value: 'treemap',
-    title: 'chart.chart_treemap',
+    title: '矩形树图',
     icon: 'treemap'
   },
 
   {
     render: 'echarts',
-    category: 'chart.chart_type_relation',
+    category: '关系',
     value: 'scatter',
-    title: 'chart.chart_scatter',
+    title: '散点图',
     icon: 'scatter'
   },
   {
     render: 'echarts',
-    category: 'chart.chart_type_relation',
+    category: '关系',
     value: 'funnel',
-    title: 'chart.chart_funnel',
+    title: '漏斗图',
     icon: 'funnel'
   },
 
   {
     render: 'echarts',
-    category: 'chart.chart_type_space',
+    category: '空间位置',
     value: 'map',
-    title: 'chart.chart_map',
+    title: '地图',
     icon: 'map'
   }
 ]

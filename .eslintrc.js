@@ -2,7 +2,7 @@
  * @Author: atdow
  * @Date: 2022-04-01 14:14:27
  * @LastEditors: null
- * @LastEditTime: 2022-04-17 00:23:23
+ * @LastEditTime: 2022-05-17 23:27:09
  * @Description: file description
  */
 module.exports = {
@@ -19,16 +19,19 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'generator-star-spacing': 'off',
     'no-mixed-operators': 0,
-    'vue/max-attributes-per-line': [
-      2,
-      {
-        'singleline': 5,
-        'multiline': {
-          'max': 1,
-          'allowFirstLine': false
-        }
-      }
-    ],
+    'vue/max-attributes-per-line': 0,
+    // 'vue/max-attributes-per-line': [
+    //   2,
+    //   {
+    //     'singleline': 5,
+    //     'multiline': {
+    //       'max': 1,
+    //       'allowFirstLine': false
+    //       // 'allowFirstLine': true
+    //     }
+    //   }
+    // ],
+    'vue/valid-v-for': 1,
     'vue/attribute-hyphenation': 0,
     'vue/html-self-closing': 0,
     'vue/component-name-in-template-casing': 0,
@@ -57,7 +60,7 @@ module.exports = {
       }
     ],
     'no-undef': 2, // 没有定义的变量
-    'no-use-before-define': ["error", { "functions": true, "classes": true }], // 避免变量提升影响代码风格和造成错误
+    'no-use-before-define': ["off", { "functions": true, "classes": true }], // 避免变量提升影响代码风格和造成错误
     'no-delete-var': 2,
     'prefer-const': [
       2,

@@ -2,7 +2,7 @@
  * @Author: atdow
  * @Date: 2021-06-17 10:31:50
  * @LastEditors: null
- * @LastEditTime: 2022-05-10 23:46:31
+ * @LastEditTime: 2022-05-17 22:55:10
  * @Description: file description
 -->
 <template>
@@ -12,6 +12,11 @@
         <el-button circle class="el-icon-s-tools" size="mini" @click="showPanel" />
         <p class="label-class">组件</p>
       </div>
+    </div>
+    <div class="main-content">
+      {{ view }}
+      <chart-component-g2 v-if="view.render === 'antv' && view.type" :chart="view" />
+      <chart-component v-if="view.render === 'echarts' && view.type" :chart="view" />
     </div>
     <el-drawer
       title="我是标题"
@@ -44,6 +49,8 @@
 </template>
 <script>
 import ChartType from './modules/chart-type.vue'
+import ChartComponentG2 from '../component/chart-component-g2'
+import ChartComponent from '../component/chart-component'
 export default {
   name: 'Index',
   data() {
@@ -61,6 +68,8 @@ export default {
   },
   components: {
     ChartType,
+    ChartComponentG2,
+    ChartComponent,
   },
   created() {},
   mounted() {},
@@ -101,6 +110,13 @@ export default {
       margin-top: 14px;
     }
   }
+}
+.main-content {
+  position: relative;
+  left: 60px;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 .component-drawer {
   /deep/.el-drawer {
